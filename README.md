@@ -1,14 +1,7 @@
 # AdditionalPylons
-Allow placing additional (infinite) pylons more than the default Terraria limits of 1 pylon per type.
 
-### Download link
-catbox link: https://files.catbox.moe/hx1lqm.dll
+Позволяет размещать дополнительные (бесконечные) пилоны, превышая стандартное ограничение Terraria в 1 пилон каждого типа.
 
-### How to Install
+### Пермишены
 
-Note: This plugin requires [TerrariaAPI-Server](https://github.com/Pryaxis/TerrariaAPI-Server) and [TShock](https://github.com/Pryaxis/TShock) in order to work. You can't use this with a vanilla Terraria server.
-
-Grab the latest release and put the _.dll_ files into your server's _ServerPlugins_ directory.
-
-### Permissions
-* **additionalpylons.inf** - to allow to place infinte pylons.
+- `additionalpylons.inf`
