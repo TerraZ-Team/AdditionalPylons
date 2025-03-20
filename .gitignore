@@ -1,5 +1,5 @@
-*~
-.vs
-bin
-obj
-AdditionalPylons.csproj.user
+bin/
+obj/
+.vs/
+
+*.dll
