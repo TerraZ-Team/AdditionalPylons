@@ -77,7 +77,7 @@ namespace AdditionalPylons
             if (!args.Player.HasPermission(Permissions.infiniteplace))
                 return;
 
-            int holdingItem = args.Player.TPlayer.inventory[args.SelectedItem].netID;
+            int holdingItem = args.Player.TPlayer.inventory[args.SelectedItem].type;
             bool alreadyHoldingPylon = playersHoldingPylon.Contains(args.PlayerId);
             bool isHoldingPylon = pylonItemIDList.Contains(holdingItem);
 
@@ -110,7 +110,7 @@ namespace AdditionalPylons
             if (args.Handled)
                 return;
 
-            if (args.Type != TETeleportationPylon._myEntityID)
+            if (args.Type != TileEntityType<TETeleportationPylon>.EntityTypeID)
                 return;            
 
             // Send STR to update non-inf pylons players's first pylon placement
